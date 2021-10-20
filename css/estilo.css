@@ -1,0 +1,1203 @@
+.regionNorte, .regionCuyo, .regionSur, .marcador_mapa--chandon, .marcador_mapa--salentein, .infoCafayate__info--price, .infoRafting__info--Price, .infoPatagonia__info--price {
+  border-top: 1px solid dimgrey; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+h2 {
+  font-family: "Poppins", sans-serif; }
+
+.titleSection {
+  width: 100%;
+  height: 700px;
+  background-image: url("../img/bodegas6.jpg");
+  background-size: cover; }
+
+.header {
+  width: 100%;
+  height: 70px;
+  background: #3a3a3a;
+  position: fixed;
+  margin-top: 0;
+  z-index: 33; }
+
+.buttonNav {
+  color: white;
+  font-size: 30px;
+  display: none; }
+
+.header a:hover {
+  color: #D3943A; }
+
+.header > a {
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  font-family: "Quicksand", sans-serif;
+  text-decoration: none;
+  line-height: 70px;
+  margin-left: 20px; }
+
+.header > a:hover {
+  color: white; }
+
+.header > a::first-letter {
+  color: tomato;
+  font-size: 40px; }
+
+.linkes {
+  display: inline-block;
+  color: white;
+  text-decoration: none; }
+
+.linkes::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 1px;
+  background: white;
+  transition: width .5s; }
+
+.linkes:hover::after {
+  width: 100%; }
+
+#deslizarFotos h1 {
+  font-size: 50px;
+  color: dimgrey;
+  font-family: "Poppins", sans-serif;
+  margin-top: 90px;
+  margin-bottom: 90px;
+  padding: 0 15px 0 15px;
+  text-align: center; }
+
+.header nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: right;
+  line-height: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+nav ul li {
+  margin-right: 40px; }
+
+nav ul li a {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px; }
+
+nav ul li ul {
+  display: flex;
+  flex-direction: column;
+  width: 190px;
+  height: 160px;
+  position: absolute;
+  margin-left: -20px;
+  padding-top: 20px;
+  background: #3a3a3a; }
+
+.header nav ul li ul {
+  display: none; }
+
+.header nav ul li:hover > ul {
+  display: block; }
+
+nav ul li ul li {
+  margin-left: -15px;
+  line-height: 40px; }
+
+.section_four {
+  margin-top: 120px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.section_four h1 {
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 90px;
+  text-align: center; }
+
+.section_four table {
+  width: 90%;
+  margin-left: 80px; }
+
+.mainIndex {
+  width: 100%;
+  height: 4100px;
+  overflow: hidden; }
+
+.w-100 {
+  width: 100% !important;
+  height: 90vh; }
+
+.sectionOne {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px auto;
+  margin-top: 70px; }
+  .sectionOne h2 {
+    font-family: "Poppins", sans-serif;
+    color: dimgrey;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 45px; }
+  .sectionOne img {
+    width: 100%;
+    height: 250px;
+    transition: .3s ease-in; }
+  .sectionOne p {
+    text-align: start;
+    font-family: "Cabin", sans-serif;
+    margin-top: 10px;
+    color: dimgrey; }
+
+.container > div {
+  display: flex;
+  justify-content: space-around; }
+
+.row div {
+  width: 350px;
+  overflow-x: hidden;
+  overflow-y: hidden; }
+
+.sectionOne img:hover {
+  transform: scale(1.2, 1.2); }
+
+#btnBodegas {
+  background: #D3943A;
+  transition: .3s ease-in;
+  margin-left: 100px;
+  margin-top: 60px; }
+  #btnBodegas a {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    transition: .3s ease-in; }
+
+#btnBodegas:hover {
+  background: white;
+  border: 1px solid #D3943A; }
+
+#btnBodegas a:hover {
+  color: #D3943A; }
+
+.sectionTwo {
+  width: 100%;
+  height: 400px;
+  margin: 20px auto;
+  display: flex;
+  margin-top: 150px; }
+
+.sectionTwoSomos {
+  width: 100%;
+  height: 400px;
+  padding: 20px 30px 0 30px; }
+  .sectionTwoSomos h2 {
+    font-size: 60px;
+    font-family: "Poppins", sans-serif;
+    color: dimgrey;
+    text-align: center; }
+  .sectionTwoSomos p {
+    text-align: center;
+    font-family: "Cabin", sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+    color: dimgrey; }
+
+.quienesSomos {
+  width: 90%;
+  height: 400px;
+  background-image: url("../img/somos.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 30px; }
+
+.tituloInformacion {
+  max-width: 1000px;
+  height: 60px;
+  margin: 20px auto;
+  padding-top: 130px;
+  border-bottom: 2px solid dimgrey;
+  padding-bottom: 40px; }
+  .tituloInformacion h2 {
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    color: dimgrey;
+    line-height: 10px;
+    text-align: center; }
+
+.sectionTree {
+  width: 80%;
+  height: 600px;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px auto;
+  margin-top: 40px; }
+  .sectionTree img {
+    width: 100%;
+    height: 300px;
+    box-shadow: 2px 2px 6px dimgrey;
+    border-radius: 50%;
+    transition: .5s ease; }
+  .sectionTree p {
+    text-align: center;
+    font-family: "Cabin", sans-serif;
+    margin-top: 50px; }
+
+.sectionTree div {
+  width: 350px; }
+
+.sectionTree img:hover {
+  border-radius: 0;
+  box-shadow: 2px 2px 6px dimgrey;
+  transform: scale(1.2, 1.2); }
+
+.vinoMalbec {
+  padding: 10px 10px;
+  width: 30%; }
+
+.btnTop button {
+  width: 140px;
+  background: #D3943A;
+  margin-left: 680px;
+  margin-top: 120px; }
+
+.btnTop a {
+  text-decoration: none;
+  color: white;
+  font-family: "Cabin", sans-serif;
+  font-size: 20px; }
+
+.titleInSection {
+  background: #3a3a3a;
+  width: 300px;
+  height: 540px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-top: 160px;
+  padding: 0;
+  margin-left: 40px;
+  align-items: center; }
+
+.titleInSection h2 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+  line-height: 50px; }
+
+.titleInSection img {
+  width: 100%; }
+
+/*------**************************************************************************************
+*********************** FOOTER ************************************ */
+footer {
+  height: 200px;
+  width: 100%;
+  background: #3a3a3a;
+  border-top: 3px solid tomato;
+  padding: 10px 10px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 690px; }
+
+.footerIndex {
+  margin-top: -200px; }
+
+.footerGastronomia {
+  margin-top: -200px; }
+
+.redesSociales {
+  width: 400px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  line-height: 60px; }
+
+.redesSociales a {
+  font-size: 22px;
+  text-decoration: none;
+  font-family: "Cabin", sans-serif;
+  color: darkgrey; }
+
+.redesSociales a:hover {
+  color: tomato; }
+
+.mediosComunicacion {
+  width: 450px;
+  height: 180px;
+  text-align: right; }
+
+.mediosComunicacion h3 {
+  margin-left: 10px;
+  font-family: "Cabin", sans-serif;
+  font-weight: 200;
+  color: darkgrey;
+  font-size: 20px;
+  line-height: 40px; }
+
+ion-icon {
+  margin-right: 10px; }
+
+.mediosComunicacion a {
+  text-decoration: none;
+  font-family: "Cabin", sans-serif;
+  margin-left: 10px;
+  color: white; }
+
+.mediosComunicacion h3:hover {
+  color: tomato; }
+
+footer img {
+  width: 300px;
+  height: 100px;
+  justify-content: center;
+  margin-top: 40px; }
+
+/*-------------------------------------------------------------
+------------- BUSCADORES ------------------------------ */
+.buscadores h2 {
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  color: dimgray;
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 120px; }
+
+.buscadores {
+  width: 90%;
+  margin: 20px auto; }
+
+/*--****************************************************************
+************ GASTRONOMIA ********************************* */
+.gastronomiaTitulo {
+  width: 100%;
+  height: 700px;
+  background-image: url("../img/gastronomia3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.gastronomiaTitulo h2 {
+  font-size: 90px;
+  color: white;
+  font-family: "Cabin", sans-serif;
+  position: absolute;
+  margin-top: 500px;
+  margin-left: 650px; }
+
+.titleGastronomia h2 {
+  font-family: "Poppins", sans-serif;
+  color: dimgrey;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  font-size: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center; }
+
+.mainGastronomia {
+  width: 100%;
+  background: white;
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  grid-template-rows: 700px 80px 600px 600px 600px;
+  grid-row-gap: 10px;
+  grid-column-gap: 20px;
+  height: 3000px;
+  overflow: hidden; }
+
+.gastronomiaTitulo {
+  grid-column: 1 / -1;
+  grid-row: 1 / 2; }
+
+.titleInitGastronomia {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3; }
+  .titleInitGastronomia h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    color: dimgrey;
+    margin-top: 40px;
+    text-align: center; }
+
+.regionNorte {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  display: flex;
+  margin-top: 180px;
+  justify-content: space-around;
+  padding-top: 30px; }
+
+.inframe {
+  margin-top: 40px;
+  align-items: center; }
+
+.regionNorte h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  color: dimgrey; }
+
+.regionNorte h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #cb933c; }
+
+.regionNorte h3 {
+  font-size: 20px; }
+
+.regionNorte ol {
+  list-style: circle; }
+
+.regionNorte li {
+  font-size: 16px;
+  font-family: "Cabin", sans-serif;
+  line-height: 28px; }
+
+.regionCuyo {
+  grid-column: 2 / 3;
+  grid-row: 4 / 5;
+  display: flex;
+  margin-top: 180px;
+  justify-content: space-around;
+  padding-top: 30px; }
+
+.regionCuyo h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  color: dimgrey; }
+
+.regionCuyo h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #cb933c; }
+
+.regionCuyo ol {
+  list-style: circle; }
+
+.regionCuyo h3 {
+  font-size: 20px; }
+
+.regionCuyo li {
+  font-size: 16px;
+  font-family: "Cabin", sans-serif;
+  line-height: 30px; }
+
+.regionSur {
+  grid-column: 2 / 3;
+  grid-row: 5 / 6;
+  display: flex;
+  margin-top: 180px;
+  justify-content: space-around;
+  padding-top: 30px; }
+
+.regionSur h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  color: dimgrey; }
+
+.regionSur h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #cb933c; }
+
+.regionSur h3 {
+  font-size: 20px; }
+
+.regionSur ol {
+  list-style: circle; }
+
+.regionSur li {
+  font-size: 16px;
+  font-family: "Cabin", sans-serif;
+  line-height: 45px; }
+
+main {
+  width: 100%;
+  height: 3903px; }
+
+/*--*************************************************************************
+************** BODEGAS ****************************************----*/
+.main__bodegas {
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+  grid-template-rows: 700px 700px 780px 780px 780px 60px;
+  row-gap: 170px; }
+
+.rutas_bodegas {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3; }
+
+.rutas_bodegas img {
+  width: 100%;
+  height: 500px; }
+
+.rutas_bodegas h1 {
+  font-size: 50px;
+  color: dimgrey;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin-bottom: 80px;
+  margin-top: -50px; }
+
+.rutas_bodegas--titulo {
+  font-family: "Poppins", sans-serif;
+  color: dimgrey;
+  font-size: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  text-decoration: underline; }
+
+.title_bodegas {
+  grid-column: 1 / -1;
+  grid-row: 1 / 2;
+  background-image: url("../img/bodegas5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.title_bodegas__titulo--principal {
+  font-size: 90px;
+  color: white;
+  font-family: "Cabin", sans-serif;
+  position: absolute;
+  margin-top: 500px;
+  margin-left: 850px; }
+
+.bodegasInfografia {
+  font-family: "Poppins", sans-serif;
+  color: dimgrey;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  font-size: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center; }
+
+.bodega_vine {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  width: 80%;
+  margin-left: 100px; }
+
+.bodega_vine__boton--link {
+  background: #D3943A;
+  color: white;
+  text-decoration: none;
+  font-family: "Cabin", sans-serif;
+  border: 1px solid dimgrey;
+  padding: 5px; }
+
+.bodega_vine a:hover {
+  background: white;
+  color: #D3943A;
+  border: 1px solid #D3943A; }
+
+.bodega_vine img {
+  width: 100%;
+  height: 400px;
+  transition: .9s ease-in;
+  opacity: .8; }
+
+.bodega_vine img:hover {
+  transform: scale(1.3, 1.3);
+  opacity: 1;
+  box-shadow: 2px -5px 108px 200px rgba(0, 0, 0, 0.52); }
+
+.bodega_vine__parrafo {
+  font-size: 18px;
+  font-family: "Cabin", sans-serif;
+  margin-top: 20px;
+  line-height: 30px; }
+
+.bodega_vine__first--title {
+  color: dimgrey;
+  font-size: 35px;
+  margin-bottom: 20px; }
+
+.bodega_sene {
+  grid-column: 2 / 3;
+  grid-row: 4 / 5;
+  width: 80%;
+  margin-left: 100px; }
+
+.bodega_sene__boton--link {
+  background: #D3943A;
+  color: white;
+  text-decoration: none;
+  font-family: "Cabin", sans-serif;
+  border: 1px solid dimgrey;
+  padding: 5px; }
+
+.bodega_sene__boton--link:hover {
+  background: white;
+  color: #D3943A;
+  border: 1px solid #D3943A; }
+
+.bodega_sene img {
+  width: 100%;
+  height: 400px;
+  transition: .9s ease-in;
+  opacity: .8; }
+
+.bodega_sene img:hover {
+  transform: scale(1.3, 1.3);
+  opacity: 1;
+  box-shadow: 2px -5px 108px 200px rgba(0, 0, 0, 0.52); }
+
+.bodega_sene__parrafo {
+  font-size: 18px;
+  font-family: "Cabin", sans-serif;
+  margin-top: 20px;
+  line-height: 30px; }
+
+.bodega_sene__first--title {
+  color: dimgrey;
+  font-size: 35px;
+  margin-bottom: 20px; }
+
+.bodegaToneles {
+  grid-column: 2 / 3;
+  grid-row: 5 / 6;
+  width: 80%;
+  margin-left: 100px; }
+
+.bodegaToneles a {
+  background: #D3943A;
+  color: white;
+  text-decoration: none;
+  font-family: "Cabin", sans-serif;
+  border: 1px solid dimgrey;
+  padding: 5px; }
+
+.bodegaToneles a:hover {
+  background: white;
+  color: #D3943A;
+  border: 1px solid #D3943A; }
+
+.bodegaToneles img {
+  width: 100%;
+  height: 400px;
+  transition: .9s ease-in;
+  opacity: .8; }
+
+.bodegaToneles img:hover {
+  transform: scale(1.3, 1.3);
+  opacity: 1;
+  box-shadow: 2px -5px 108px 200px rgba(0, 0, 0, 0.52); }
+
+.bodegaToneles p {
+  font-size: 18px;
+  font-family: "Cabin", sans-serif;
+  margin-top: 20px;
+  line-height: 30px; }
+
+.bodegaToneles h2 {
+  color: dimgray;
+  font-size: 35px;
+  margin-bottom: 20px; }
+
+.marcador_mapa--chandon {
+  width: 25px;
+  height: 25px;
+  background: red;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 560px;
+  margin-top: 595px;
+  z-index: 22;
+  cursor: pointer; }
+
+.sub_chandon {
+  width: 250px;
+  height: 480px;
+  position: absolute;
+  background: white;
+  display: flex;
+  box-shadow: 2px 2px 6px dimgrey;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: -400px;
+  margin-left: 200px;
+  display: none; }
+
+.sub_chandon__titulo--modal {
+  margin-top: 10px;
+  color: dimgrey;
+  text-decoration: center;
+  font-size: 32px;
+  text-align: center; }
+
+.sub_chandon__parrafo {
+  margin-top: 25px;
+  font-size: 15px;
+  text-align: center; }
+
+.sub_chandon img {
+  width: 100%;
+  height: 140px; }
+
+.marcador_mapa--chandon:hover > div {
+  display: block; }
+
+.marcador_mapa--salentein {
+  width: 25px;
+  height: 25px;
+  background: red;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 200px;
+  margin-top: 420px;
+  z-index: 22;
+  cursor: pointer; }
+
+.sub_salentein {
+  width: 250px;
+  height: 480px;
+  position: absolute;
+  background: white;
+  display: flex;
+  box-shadow: 2px 2px 6px dimgrey;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: -180px;
+  margin-left: -280px;
+  display: none; }
+
+.sub_salentein__titulo--modal {
+  margin-top: 10px;
+  color: dimgrey;
+  text-decoration: center;
+  font-size: 32px;
+  text-align: center; }
+
+.sub_salentein__parrafo {
+  margin-top: 25px;
+  font-size: 15px;
+  text-align: center; }
+
+.sub_salentein img {
+  width: 95%;
+  height: 140px; }
+
+.marcador_mapa--salentein:hover > div {
+  display: block; }
+
+/*-------****************************************************************
+***************** CONTACTO *******************************--- */
+.mainContacto {
+  width: 100%;
+  height: 2200px; }
+
+.sectionContacto {
+  background: white;
+  width: 70%;
+  height: 800px;
+  padding-left: 20px;
+  padding-right: 30px;
+  color: dimgrey;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column; }
+
+.sectionContacto h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 35px;
+  margin-bottom: 40px; }
+
+.sectionContacto label {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px; }
+
+.sectionContacto input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #d0921f;
+  margin-bottom: 15px;
+  width: 500px; }
+
+.sectionContactoTitle img {
+  margin-left: 600px;
+  margin-top: 20px;
+  margin-bottom: 30px; }
+
+.sectionContactoTitle h1 {
+  font-family: "Poppins", sans-serif;
+  color: dimgrey;
+  margin-top: 60px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 30px; }
+
+#box {
+  margin-left: -50px;
+  margin-right: -240px;
+  margin-top: 40px; }
+
+.contactoTitulo {
+  width: 100%;
+  height: 700px;
+  background-image: url("../img/contacto1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.contactoTitulo h2 {
+  font-size: 90px;
+  color: white;
+  font-family: "Cabin", sans-serif;
+  position: absolute;
+  margin-top: 500px;
+  margin-left: 800px; }
+
+.reset {
+  width: 160px;
+  height: 40px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+  text-align: center;
+  position: absolute;
+  line-height: 40px;
+  margin-top: 80px;
+  margin-left: -420px;
+  background: #d0921f;
+  box-shadow: 2px 2px 6px dimgrey; }
+
+.enviar {
+  width: 260px;
+  height: 40px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 10px;
+  background: #d0921f;
+  box-shadow: 2px 2px 6px dimgrey;
+  position: absolute;
+  margin-left: -420px;
+  margin-top: 130px; }
+
+.formContacto {
+  width: 80%;
+  height: 800px;
+  display: flex;
+  margin: 20px auto;
+  margin-top: 90px;
+  box-shadow: 2px 2px 6px dimgrey; }
+
+.contactoInfo {
+  width: 60%;
+  background: #1B7EC2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.contactoInfo h3 {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: white;
+  line-height: 50px;
+  margin-top: -120px; }
+
+.icono {
+  color: white;
+  font-size: 50px; }
+
+.mainTurismo {
+  width: 100%;
+  height: 4900px;
+  overflow: hidden; }
+
+.turismo {
+  width: 100%;
+  height: 700px;
+  background-image: url("../img/turismo3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.turismo__titulo {
+  font-size: 90px;
+  color: white;
+  font-family: "Cabin", sans-serif;
+  position: absolute;
+  margin-top: 500px;
+  margin-left: 850px; }
+
+.cafayate {
+  width: 70%;
+  height: 650px;
+  padding-left: 30px;
+  margin-left: 60px;
+  display: flex;
+  padding-top: 20px;
+  box-shadow: 2px 2px 6px dimgrey;
+  background: white; }
+
+.cafayate__imagen {
+  width: 40%;
+  height: 500px;
+  background-image: url("../img/cafayate.jpg");
+  background-size: cover; }
+
+.infoCafayate {
+  width: 80%;
+  height: 550px;
+  padding-left: 30px;
+  padding-right: 30px; }
+  .infoCafayate__titulo {
+    font-size: 38px;
+    font-family: "Poppins", sans-serif;
+    color: dimgrey;
+    text-align: center; }
+    .infoCafayate__titulo__subTitulo {
+      font-family: "Cabin", sans-serif;
+      font-weight: 600;
+      font-size: 20px;
+      text-decoration: underline; }
+      .infoCafayate__titulo__subTitulo__informacion {
+        font-family: "Cabin", sans-serif;
+        text-align: justify;
+        font-weight: 600; }
+
+.infoCafayate__info--price {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: white;
+  background: #D3943A;
+  padding: 5px 5px 5px 5px;
+  margin-top: 45px;
+  font-size: 30px; }
+
+.aventura__titulo--principal {
+  font-size: 50px;
+  margin-top: 120px;
+  font-family: "Poppins", sans-serif;
+  color: dimgrey;
+  margin-bottom: 140px;
+  text-align: center;
+  padding-top: 40px;
+  border-top: 1px double dimgrey; }
+
+.rafting {
+  width: 70%;
+  height: 550px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 80px;
+  padding-top: 20px;
+  display: flex;
+  margin-left: 350px;
+  box-shadow: 2px 2px 6px dimgrey;
+  background: white; }
+
+.rafting__imagen {
+  width: 40%;
+  height: 500px;
+  background-image: url("../img/rafting.jpg");
+  background-size: cover; }
+
+.infoRafting {
+  width: 80%;
+  height: 550px;
+  padding-left: 30px;
+  padding-right: 30px; }
+
+.infoRafting__titulo {
+  font-size: 38px;
+  font-family: "Poppins", sans-serif;
+  color: dimgrey;
+  text-align: center; }
+
+.infoRafting__subTitulo {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: underline; }
+
+.infoRafting__informacion {
+  font-family: "Poppins", sans-serif;
+  text-align: justify;
+  font-weight: 600; }
+
+.infoRafting__info--Price {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: white;
+  background: #D3943A;
+  padding: 5px 5px 5px 5px;
+  margin-top: 45px;
+  font-size: 30px; }
+
+.patagonia {
+  width: 80%;
+  height: 680px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 80px;
+  display: flex;
+  background: white;
+  box-shadow: 2px 2px 6px dimgrey;
+  padding-top: 20px;
+  margin-left: 20px; }
+
+.patagonia__imagen {
+  width: 50%;
+  height: 610px;
+  background-image: url("../img/bariloche.jpg");
+  background-size: cover; }
+
+.infoPatagonia {
+  width: 80%;
+  height: 600px;
+  padding-left: 30px;
+  padding-right: 30px; }
+
+.infoPatagonia__titulo {
+  font-size: 38px;
+  font-family: "Poppins", sans-serif;
+  color: dimgrey;
+  text-align: center; }
+
+.infoPatagonia__subTitulo {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: underline; }
+
+.infoPatagonia__informacion--parrafo {
+  font-family: "Poppins", sans-serif;
+  text-align: justify;
+  font-weight: 600; }
+
+.infoPatagonia__info--price {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: white;
+  background: #D3943A;
+  padding: 5px 5px 5px 5px;
+  margin-top: 45px;
+  font-size: 30px; }
+
+@media only screen and (max-width: 360px) {
+  .mainIndex {
+    height: 5000px; }
+  .footerIndex {
+    margin-top: 50px;
+    width: 100%; }
+  .footerIndex div a {
+    font-size: 15px;
+    line-height: 30px; }
+  .footerIndex div h3 {
+    font-size: 10px;
+    line-height: 10px;
+    text-align: left;
+    font-family: "Poppins", sans-serif; }
+  .footerIndex img {
+    width: 60%;
+    height: 50px;
+    position: absolute;
+    margin-left: -110px;
+    margin-top: 110px; }
+  .mediosComunicacion {
+    width: 200px;
+    margin-left: 140px;
+    position: absolute;
+    margin-top: 10px; }
+  .redesSociales {
+    width: 100px;
+    position: absolute;
+    margin-left: -200px; }
+  .w-100 {
+    width: 100% !important;
+    height: 45vh; }
+  .titleSection {
+    height: 400px; }
+  .titleInSection {
+    width: 40%;
+    height: 180px;
+    margin-top: 220px;
+    margin-left: 5px; }
+  .titleInSection h2 {
+    display: none; }
+  nav {
+    display: none; }
+  .header a {
+    font-size: 18px; }
+  .buttonNav {
+    display: block;
+    margin-left: 310px;
+    margin-top: 25px; }
+  .row {
+    display: flex;
+    flex-direction: column; }
+  .row div {
+    width: 100%;
+    height: 450px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 6px dimgrey; }
+  .row div img {
+    width: 100%;
+    height: 150px; }
+  .row div p {
+    font-size: 14px; }
+  .row div h2 {
+    font-size: 30px; }
+  #btnBodegas {
+    margin-left: 60px; }
+  .sectionTwo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 770px; }
+  .sectionTwo h2 {
+    font-size: 40px; }
+  .sectionTwo p {
+    font-size: 20px;
+    line-height: 22px;
+    font-family: "Poppins", sans-serif; }
+  .tituloInformacion {
+    margin-top: 90px; }
+  .tituloInformacion h2 {
+    font-size: 25px;
+    font-family: "Poppins", sans-serif; }
+  .sectionTree img {
+    border-radius: 0; }
+  .sectionTree div {
+    height: 470px;
+    width: 100%; }
+  .sectionTree p {
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px; }
+  #treeContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 700px; }
+  #treeContainer > div {
+    margin-top: 230px;
+    border-top: 1px solid dimgrey;
+    margin-bottom: 40px; }
+  .btnTop > button {
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 1560px;
+    background: navy; } }
